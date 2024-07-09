@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Table</title>
+    <style>
+        table {
+            width: 300px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Report</h1>
+    <table>
+        <!-- Bad code -->
+        <tr><th>Student</th><th>Grade</th></tr>
+        <!-- Bad code -->
+        <tr>
+        <td>Adam</td>
+        <td>85</td>
+        </tr>
+        <!-- Good code -->
+        <tr>
+            <td><pre>           Joey</pre></td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>
+                <img src="73.jpg" 
+                     alt="image of 73" 
+                     width="50" 
+                     height="50"
+                     style="border:5px solid blue">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
